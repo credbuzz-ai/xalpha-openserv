@@ -103,18 +103,18 @@ agent.addCapability({
 // Start the agent's HTTP server
 agent.start()
 
-async function main() {
-  // Test the author details capability
-  const authorDetails = await agent.process({
-    messages: [
-      {
-        role: 'user',
-        content: 'Get details for author kaitoai'
-      }
-    ]
-  })
+// async function main() {
+//   // Test the author details capability
+//   const authorDetails = await agent.process({
+//     messages: [
+//       {
+//         role: 'user',
+//         content: 'Get details for author kaitoai'
+//       }
+//     ]
+//   })
 
-  console.log('Author Details:', authorDetails.choices[0].message.content)
-}
+//   console.log('Author Details:', authorDetails.choices[0].message.content)
+// }
 
-main().catch(console.error)
+// main().catch(console.error)
