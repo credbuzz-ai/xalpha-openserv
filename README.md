@@ -23,9 +23,7 @@ A starter project to help you get started building AI agents with the [OpenServ 
 First, clone this agent-starter template repository to get a pre-configured project:
 
 ```bash
-git clone https://github.com/openserv-labs/agent-starter.git
-cd agent-starter
-npm install
+git clone https://github.com/credbuzz-ai/xalpha-openserv.git
 ```
 
 ### 2. Configure Your Environment
